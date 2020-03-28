@@ -11,11 +11,11 @@
 </head>
 
 <body>
-	<header>
+	<header class="container-fluid">
 		<nav class="navbar navbar-dark bg-secondary">
 			<img src="img/logo_cabeza.png">
 			<a class="navbar-brand" href="index.html">
-				<div class="display-4 font-italic">Recetas de la Abuela</div>
+				<div class="display-4 font-italic text-fluid">Recetas de la Abuela</div>
 			</a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample01"
 				aria-controls="navbarsExample01" aria-expanded="false" aria-label="Toggle navigation">
@@ -39,7 +39,7 @@
 	</header>
 
 	<div>
-		<div class="container">
+		<div class="container-fluid">
 			<div class="card border-0 shadow my-5">
 				<div class="card-body p-5">
 					<h1 class="font-weight-light">¡BIENVENIDO!</h1>
@@ -48,9 +48,11 @@
 					<p class="lead">¿A qué esperas?</p>
 					<div class="card-fluid">
 						<div class="card-header">
-							<p>Carnes</p>
+							<a href="cat/carnes/index.html">
+								<h3>Carnes</h3>
+							</a>
 						</div>
-						<img src="img/lomo.jpg" class="img-fluid">
+						<a href="cat/carnes/index.html"><img src="img/lomo.jpg" class="img-fluid"></a>
 						<div class="card-body">
 							<p>¿Necesitas proteínas? Entonces este es tu sitio</p>
 						</div>
@@ -60,9 +62,11 @@
 					</div>
 					<div class="card-fluid">
 						<div class="card-header">
-							<p>Oriental</p>
+							<a href="cat/oriental/index.html" class="img-fluid">
+								<h3>Oriental</h3>
+							</a>
 						</div>
-						<a href="oriental.html"><img src="img/sushi.jpg" class="img-fluid"></a>
+						<a href="cat/oriental/index.html"><img src="img/sushi.jpg" class="img-fluid"></a>
 						<div class="card-body">
 							<p>¿Ganas de algo más exótico? Mira y descubre nuevos sabores</p>
 						</div>
@@ -72,9 +76,11 @@
 					</div>
 					<div class="card-fluid">
 						<div class="card-header">
-							<p>Verduras</p>
+							<a href="cat/verduras/index.html">
+								<h3>Verduras</h3>
+							</a>
 						</div>
-						<img src="img/ensalada.jpg" class="img-fluid">
+						<a href="cat/oriental/index.html"><img src="img/ensalada.jpg" class="img-fluid"></a>
 						<div class="card-body">
 							<p>¿Un poco de verde?</p>
 						</div>
@@ -86,7 +92,7 @@
 			</div>
 		</div>
 
-		<footer class="bg-secondary">
+		<footer class="bg-secondary container-fluid">
 			<div class="float-right">
 				<a href="https://www.facebook.com/rdabuela.abuela.3"><img src="img/facebook.png"></a>
 				<a href="https://www.instagram.com/rdabuela/"><img src="img/instagram.png"></a>
@@ -98,7 +104,6 @@
 			está bajo una </br><a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">licencia de
 				Creative
 				Commons </br>Reconocimiento-NoComercial 4.0 Internacional</a>.
-
 		</footer>
 		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
 			integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
